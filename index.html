@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="input-group">
+            <label for="celsius">Celsius:</label>
+            <input type="number" class="Celsius" id="celsius" oninput="convertFromCelsius()">
+        </div>
+        <div class="input-group">
+            <label for="fahrenheit">Fahrenheit:</label>
+            <input type="number" class="Fahrenheit" id="fahrenheit" oninput="convertFromFahrenheit()">
+        </div>
+        <div class="input-group">
+            <label for="kelvin">Kelvin:</label>
+            <input type="number" class="Kelvin" id="kelvin" oninput="convertFromKelvin()">
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Temperature Converter. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
